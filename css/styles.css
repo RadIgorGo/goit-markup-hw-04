@@ -370,13 +370,13 @@ img {
 }
 .little-name {
   text-transform: uppercase;
-  margin-top: auto;
+  margin-top: 30px;
   margin-bottom: auto;
 }
 
 .description-unit {
   width: 270px;
-  height: 101px;
+  height: 251px;
 }
 .description-job {
   display: flex;
@@ -424,7 +424,7 @@ img {
   margin: auto;
 }
 .name-prof {
-  padding-bottom: 30px;
+  padding-bottom: 16px;
   margin: auto;
 }
 .footer {
@@ -499,4 +499,29 @@ img {
   background-position: center;
   background-size: auto auto;
   background-size: cover;
+}
+.des-svg {
+  height: 120px;
+  width: 270px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.social-group {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.instagram-svg,
+.twitter-svg,
+.facebook-svg,
+.linkedin-svg {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+}
+.instagram-svg:hover,
+.instagram-svg:focus {
+  fill: var(--accent-cl);
 }
