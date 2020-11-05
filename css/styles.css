@@ -294,9 +294,17 @@ img {
 .table-app {
   list-style: none;
   margin: auto;
-  padding: auto;
 }
 
+.list-menu,
+.list-nav,
+.list-app,
+.table-app {
+  padding: auto;
+}
+.list {
+  padding-left: 0px;
+}
 .list-app {
   background-color: var(--white);
 }
@@ -500,13 +508,19 @@ img {
   background-size: auto auto;
   background-size: cover;
 }
-.des-svg {
+.bg-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 120px;
   width: 270px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  background-color: #f5f4fa;
+
+  background-color: var(--smoke);
   border-radius: 4px;
+}
+.des-svg {
+  height: 70px;
+  width: 70px;
 }
 .social-group {
   display: flex;
@@ -520,6 +534,8 @@ img {
   height: 44px;
   width: 44px;
   border-radius: 50%;
+  color: var(--accent-cl);
+  fill: lightblue;
 }
 .instagram-svg:hover,
 .instagram-svg:focus {
