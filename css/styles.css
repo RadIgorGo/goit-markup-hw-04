@@ -333,6 +333,7 @@ img {
   margin-left: 93px;
 }
 .up-contacts {
+  align-content: center;
   margin-left: auto;
 }
 .title {
@@ -508,6 +509,21 @@ img {
   background-size: auto auto;
   background-size: cover;
 }
+
+.envelope {
+  height: 12px;
+  width: 16px;
+
+  margin-right: 10px;
+  fill: var(--main-text-cl);
+}
+.smartphone {
+  height: 16px;
+  width: 10px;
+  margin-right: 10px;
+  fill: var(--main-text-cl);
+}
+
 .bg-svg {
   display: flex;
   justify-content: center;
