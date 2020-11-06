@@ -110,7 +110,9 @@ img {
 .bg-team {
   background-color: var(--smoke);
 }
-
+.our-clients {
+  background-color: var(--white);
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -173,7 +175,7 @@ img {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
+  line-height: 1.1719;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-cl);
@@ -308,6 +310,9 @@ img {
   padding: 0px;
 }
 .list {
+  height: 81px;
+  width: 231px;
+  margin-top: 20px;
   padding-left: 0px;
 }
 .list-app {
@@ -444,13 +449,16 @@ img {
   padding-bottom: 16px;
   margin: auto;
 }
+.our-clients {
+  margin: auto;
+}
 .footer {
-  padding-top: 59px;
-  padding-bottom: 59px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--gray);
 }
 .address {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 .cl-link {
   padding-top: 6px;
@@ -600,4 +608,116 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+.our-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.block-clients {
+  display: flex;
+  justify-content: space-between;
+}
+.unit-clients {
+  display: flex;
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.svg-client1 {
+  margin: auto;
+  height: 49px;
+  width: 44px;
+}
+.svg-client2 {
+  margin: auto;
+  height: 52px;
+  width: 40px;
+}
+.svg-client3 {
+  margin: auto;
+  height: 43px;
+  width: 41px;
+}
+.svg-client4 {
+  margin: auto;
+  height: 42px;
+  width: 80px;
+}
+.svg-client5 {
+  margin: auto;
+  height: 47px;
+  width: 59px;
+}
+.svg-client6 {
+  margin: auto;
+  height: 45px;
+  width: 88px;
+}
+.svg-client1,
+.svg-client2,
+.svg-client3,
+.svg-client4,
+.svg-client5,
+.svg-client6 {
+  fill: #afb1b8;
+}
+.unit-clients:hover,
+.unit-clients:focus {
+  border: 1px solid var(--accent-cl);
+}
+.unit-clients:hover .svg-client1,
+.unit-clients:focus .svg-client1 {
+  fill: var(--accent-cl);
+}
+.unit-clients:hover .svg-client2,
+.unit-clients:focus .svg-client2 {
+  fill: var(--accent-cl);
+}
+.unit-clients:hover .svg-client3,
+.unit-clients:focus .svg-client3 {
+  fill: var(--accent-cl);
+}
+.unit-clients:hover .svg-client4,
+.unit-clients:focus .svg-client4 {
+  fill: var(--accent-cl);
+}
+.unit-clients:hover .svg-client5,
+.unit-clients:focus .svg-client5 {
+  fill: var(--accent-cl);
+}
+.unit-clients:hover .svg-client6,
+.unit-clients:focus .svg-client6 {
+  fill: var(--accent-cl);
+}
+.our-contacts {
+  margin-top: 12px;
+  margin-bottom: auto;
+  margin-left: 70px;
+}
+.our-contacts .little-name {
+  color: var(--white);
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.call-us {
+  display: flex;
+
+  height: 44px;
+  width: 206px;
+}
+.call-us .pos-social {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.call-us .pos-social:hover,
+.call-us .pos-social:focus {
+  background-color: var(--accent-cl);
+}
+.call-us .pos-social:not(:last-child) {
+  margin-right: 10px;
+}
+.address {
+  display: inline-flex;
 }
