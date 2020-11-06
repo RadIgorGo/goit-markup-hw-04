@@ -571,11 +571,10 @@ img {
 .twitter-svg,
 .facebook-svg,
 .linkedin-svg {
-  display: flex;
   height: 20px;
   width: 20px;
   margin: auto;
-  color: #afb1b8;
+  fill: #afb1b8;
 }
 .pos-social:hover .instagram-svg,
 .pos-social:focus .instagram-svg {
