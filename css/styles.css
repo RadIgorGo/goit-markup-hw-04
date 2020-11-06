@@ -76,6 +76,7 @@ html {
   --gray: #2f303a;
   --pearl: #e5e5e5;
   --smoke: #f5f4fa;
+  --svg-smoke: #afb1b8;
 }
 html {
   box-sizing: border-box;
@@ -582,7 +583,7 @@ img {
   height: 20px;
   width: 20px;
   margin: auto;
-  fill: #afb1b8;
+  fill: var(--svg-smoke);
 }
 .pos-social:hover .instagram-svg,
 .pos-social:focus .instagram-svg {
@@ -622,7 +623,7 @@ img {
   width: 170px;
   height: 90px;
 
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--svg-smoke);
   box-sizing: border-box;
   border-radius: 4px;
 }
@@ -662,7 +663,7 @@ img {
 .svg-client4,
 .svg-client5,
 .svg-client6 {
-  fill: #afb1b8;
+  fill: var(--svg-smoke);
 }
 .unit-clients:hover,
 .unit-clients:focus {
