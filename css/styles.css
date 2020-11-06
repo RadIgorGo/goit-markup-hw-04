@@ -130,8 +130,13 @@ img {
   text-decoration: none;
 }
 .link {
+  font-family: "Roboto", sans-serif;
+  height: 16px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
   color: inherit;
-  line-height: 1.1743;
+  line-height: 1.1429;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -315,8 +320,11 @@ img {
   display: flex;
 }
 .list-nav .nav-item:not(:last-child),
-.up-contacts .link:not(:last-child) {
+.up-contacts:not(:last-child) {
   margin-right: 50px;
+}
+.link:not(:last-child) {
+  margin-right: 30px;
 }
 .link-menu {
   display: block;
@@ -502,7 +510,7 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("/images/img-min.jpg");
+    url("/images/img.jpg");
   background-color: var(--gray);
   background-repeat: no-repeat;
   background-position: center;
@@ -513,8 +521,8 @@ img {
 .envelope {
   height: 12px;
   width: 16px;
-
   margin-right: 10px;
+
   fill: var(--main-text-cl);
 }
 .smartphone {
@@ -523,7 +531,14 @@ img {
   margin-right: 10px;
   fill: var(--main-text-cl);
 }
-
+.link:hover .envelope,
+.link:focus .enevelope {
+  fill: var(--accent-cl);
+}
+.link:hover .smartphone,
+.link:focus .smartphone {
+  fill: var(--accent-cl);
+}
 .bg-svg {
   display: flex;
   justify-content: center;
@@ -540,20 +555,45 @@ img {
 }
 .social-group {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin-right: 35px;
+  margin-left: 35px;
   padding-bottom: 30px;
+}
+.pos-social {
+  display: flex;
+  height: 44px;
+  width: 44px;
+
+  border-radius: 50%;
 }
 .instagram-svg,
 .twitter-svg,
 .facebook-svg,
 .linkedin-svg {
-  height: 44px;
-  width: 44px;
-  border-radius: 50%;
-  color: var(--accent-cl);
-  fill: lightblue;
+  display: flexbox;
+  height: 20px;
+  width: 20px;
+  margin: auto;
+  fill: #afb1b8;
 }
-.instagram-svg:hover,
-.instagram-svg:focus {
-  fill: var(--accent-cl);
+.pos-social:hover .instagram-svg,
+.pos-social:focus .instagram-svg {
+  fill: var(--white);
+}
+.pos-social:hover,
+.pos-social:focus {
+  background-color: var(--accent-cl);
+}
+.pos-social:hover .twitter-svg,
+.pos-social:focus .twitter-svg {
+  fill: var(--white);
+}
+.pos-social:hover .facebook-svg,
+.pos-social:focus .facebook-svg {
+  fill: var(--white);
+}
+.pos-social:hover .linkedin-svg,
+.pos-social:focus .linkedin-svg {
+  fill: var(--white);
 }
