@@ -305,7 +305,7 @@ img {
 .list-nav,
 .list-app,
 .table-app {
-  padding: auto;
+  padding: 0px;
 }
 .list {
   padding-left: 0px;
@@ -571,11 +571,11 @@ img {
 .twitter-svg,
 .facebook-svg,
 .linkedin-svg {
-  display: flexbox;
+  display: flex;
   height: 20px;
   width: 20px;
   margin: auto;
-  fill: #afb1b8;
+  color: #afb1b8;
 }
 .pos-social:hover .instagram-svg,
 .pos-social:focus .instagram-svg {
