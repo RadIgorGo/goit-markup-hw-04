@@ -150,7 +150,10 @@ img {
 .link:focus {
   color: var(--accent-cl);
 }
-
+.link {
+  display: flex;
+  align-items: center;
+}
 .title {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -311,6 +314,8 @@ img {
   padding: 0px;
 }
 .list {
+  display: flex;
+  flex-wrap: wrap;
   height: 81px;
   width: 231px;
   margin-top: 20px;
@@ -462,7 +467,7 @@ img {
   padding-top: 0px;
 }
 .cl-link {
-  padding-top: 6px;
+  padding-top: 9px;
 }
 .table-color {
   color: var(--white);
@@ -579,11 +584,26 @@ img {
 .instagram-svg,
 .twitter-svg,
 .facebook-svg,
-.linkedin-svg {
+.linkedin-svg,
+.instagram-svg1,
+.twitter-svg1,
+.facebook-svg1,
+.linkedin-svg1 {
   height: 20px;
   width: 20px;
   margin: auto;
+}
+.instagram-svg,
+.twitter-svg,
+.facebook-svg,
+.linkedin-svg {
   fill: var(--svg-smoke);
+}
+.instagram-svg1,
+.twitter-svg1,
+.facebook-svg1,
+.linkedin-svg1 {
+  fill: var(--white);
 }
 .pos-social:hover .instagram-svg,
 .pos-social:focus .instagram-svg {
@@ -712,6 +732,7 @@ img {
 .call-us .pos-social {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
 .call-us .pos-social:hover,
 .call-us .pos-social:focus {
   background-color: var(--accent-cl);
